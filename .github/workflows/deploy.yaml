@@ -27,7 +27,7 @@ jobs:
           name: hugo-public
           path: public/
       - name: Deploy to LAMP server
-        uses: appleboy/scp-action@v0.1.4
+        uses: appleboy/scp-action@v1.0.0
         with:
           host: ${{ secrets.LAMP_SERVER_HOST }}
           username: ${{ secrets.LAMP_SERVER_USERNAME }}
