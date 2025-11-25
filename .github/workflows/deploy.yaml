@@ -21,6 +21,11 @@ jobs:
           hugo-version: "0.152.2"
       - name: Build the site
         run: hugo --minify
+      - name: Artifact upload
+        uses: actions/upload-artifact@v5
+        with:
+          name: hugo-public
+          path: public/
       - name: Deploy to LAMP server
         uses: appleboy/scp-action@v0.1.4
         with:
