@@ -1,0 +1,31 @@
+baseURL = 'https://gllug.org.uk/'
+languageCode = 'en-gb'
+title = 'Greater London Linux User Group'
+
+theme = "hugo-theme-m10c"
+
+[permalinks]
+posts = "/:year/:month/:day/:title/"
+
+[params]
+author = "Greater London Linux User Group"
+description = "."
+avatar = "/logo.gif"
+favicon = "/logo.gif"
+
+[[params.social]]
+icon = "mail"
+name = "Mailing List"
+url = "https://mailman.lug.org.uk/mailman/listinfo/gllug"
+
+[[params.social]]
+icon = "message-square"
+name = "IRC"
+url = "/irc"
+
+[params.style]
+darkestColor = "#212121"
+darkColor = "#eee"
+lightColor = "#000"
+lightestColor = "#fff"
+primaryColor = "#1a1"
