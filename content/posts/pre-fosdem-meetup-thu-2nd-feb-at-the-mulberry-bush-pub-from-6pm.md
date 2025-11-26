@@ -3,6 +3,8 @@ title: "pre-FOSDEM Meetup Thu 2nd Feb at the Mulberry Bush pub from 6pm"
 date: 2017-01-16T21:06:24+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Uncategorized
 ---
 Happy new year all.
 

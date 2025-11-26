@@ -3,6 +3,8 @@ title: "Meetup Thu 28th Jan at the Mulberry Bush pub (near Waterloo station) 6pm
 date: 2016-01-05T18:37:23+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Meetings
 ---
 A new year, a new site and a new meetup!
 

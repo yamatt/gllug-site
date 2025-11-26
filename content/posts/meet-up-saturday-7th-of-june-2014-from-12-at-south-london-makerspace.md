@@ -3,6 +3,8 @@ title: "Meet Up Saturday 7th of June 2014 from 12 at South London Makerspace"
 date: 2014-05-29T10:02:13+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Meetings
 ---
 I know, I know. First meet up in a long time, but I've been working on the South London Makerspace which is now a real thing so lets meet there!
 The South London Makerspace is a hackerspace like community in South London with a focus on social and education.

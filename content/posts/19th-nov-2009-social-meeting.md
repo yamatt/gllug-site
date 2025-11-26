@@ -3,6 +3,8 @@ title: "19th Nov 2009 : Social Meeting"
 date: 2009-11-04T23:53:42+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Uncategorized
 ---
 Venue : <a href="http://www.individualpubs.co.uk/pembury/">Pembury Tavern</a><br />  
 Date and Time : 19th November 1930 til "late"<br />  

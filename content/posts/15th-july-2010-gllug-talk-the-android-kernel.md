@@ -3,6 +3,8 @@ title: "15th July 2010 - GLLUG Talk - The Android Kernel"
 date: 2010-07-06T08:06:36+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Uncategorized
 ---
 The this months talk will be about the Android kernel and will be<br />  
 given by Sunny Aujla .<br />  

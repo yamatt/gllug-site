@@ -3,6 +3,8 @@ title: "13th May - Joint GLLUG / UKUUG talk"
 date: 2010-05-10T12:12:59+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Uncategorized
 ---
 Date: Thursday, May 13, 2010<br />  
 Time: 7:00pm<br />  

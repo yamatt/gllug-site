@@ -3,6 +3,8 @@ title: "18th March - Greater London LUG Meeting"
 date: 2010-03-02T12:42:11+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Uncategorized
 ---
 Date: Thursday, March 18, 2010<br />  
 Time: 7:30pm – 9:30pm<br />  

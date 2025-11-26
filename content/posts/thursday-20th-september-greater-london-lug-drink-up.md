@@ -3,6 +3,8 @@ title: "Thursday 20th September - Greater London LUG Drink Up"
 date: 2012-09-01T10:34:51+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Meetings
 ---
 The Greater London Linux User Group are pleased to announce the next Drink Up on Thursday 20th September from 6pm at The William Blake pub on Old Street.<br />  
 <br />  

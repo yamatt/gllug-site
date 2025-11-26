@@ -3,6 +3,8 @@ title: "Saturday 11th August 2012 @ 12pm Greater London LUG Meet up"
 date: 2012-07-11T17:02:16+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Meetings
 ---
 The Greater London Linux User Group are excited to announce the first meeting of the group for over two years. We would like to warmly invite anyone who is keen to discover something new about Linux, Android, Free and Open Source Software, Open Hardware and Free Culture to attend and meet new people with the same interests. <br />  
 <br />  

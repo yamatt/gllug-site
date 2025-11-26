@@ -3,6 +3,8 @@ title: "Meetup Wed 27th July 2016 at The Blacksmith and Toffeemaker pub (near An
 date: 2016-07-14T16:24:16+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Meetings
 ---
 Not to make this look like a 6 monthly meetup, but that’s what it’s going to be.
 

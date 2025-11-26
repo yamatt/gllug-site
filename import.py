@@ -41,11 +41,12 @@ def create_or_empty_dir(dirpath):
         os.remove(f)
 
 
-def get_categories_and_tags(category_list):
-    if not category_list:
+def get_categories_and_tags(categories):
+    if not categories:
+        print("No categories found")
         return ""
 
-    if len(category_list) == 0:
+    if len(categories) == 0:
         return ""
 
     out = ""
@@ -54,11 +55,12 @@ def get_categories_and_tags(category_list):
 
     # category will have attributes that define if it's a tag or category.
     # domain: 'post_tag'/'categoory'
-    for c in category_list:
-        if c["domain"] == "post_tag":
-            tags.append(c.cdata)
-        if c["domain"] == "category":
-            categories.append(c.cdata)
+    for category in categories:
+        print("yo")
+        if category["domain"] == "post_tag":
+            tags.append(category.cdata)
+        if category["domain"] == "category":
+            categories.append(category.cdata)
 
     if len(categories) == 0 and len(tags) == 0:
         return out
@@ -66,8 +68,8 @@ def get_categories_and_tags(category_list):
     if len(categories) > 0:
         out += "categories:\n"
 
-        for c in categories:
-            out += "- " + c + "\n"
+        for category in categories:
+            out += "- " + category + "\n"
 
     if len(tags) > 0:
         out += "tags:\n"
@@ -243,7 +245,7 @@ if __name__ == "__main__":
             post.title.cdata, date_convert(post.pubDate.cdata)
         )
         if hasattr(post, "category"):
-            to_write += get_categories_and_tags(post.category)
+            to_write += f"tags:\n  - {post.category.cdata}\n"
 
         if post.excerpt_encoded.cdata:
             to_write += get_description(post.excerpt_encoded.cdata)

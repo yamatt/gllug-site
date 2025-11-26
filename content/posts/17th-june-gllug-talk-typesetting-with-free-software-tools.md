@@ -3,6 +3,8 @@ title: "17th June - GLLUG Talk - Typesetting with Free Software Tools"
 date: 2010-06-02T09:30:59+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Uncategorized
 ---
 Date: Thursday, June 17th, 2010<br />  
 Time: 7:30pm – 9:30pm<br />  

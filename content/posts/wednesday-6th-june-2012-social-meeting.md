@@ -3,6 +3,8 @@ title: "Wednesday 6th June 2012 - Social Meeting"
 date: 2012-05-17T10:48:14+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Meetings
 ---
 After the somewhat successful relaunch of the Lincolnshire LUG and the <br />  
 huge turn out at the GitHub London drink up a few weeks ago it really <br />  

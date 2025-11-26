@@ -3,6 +3,8 @@ title: "25th August 2011 - Celebrate the 20th anniversary of Linux"
 date: 2011-08-11T11:45:31+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Meetings
 ---
 On 25th August 1991 Linus Torvalds announced that he had been working on a new PC (80386) operating system. <br />  
 <br />  

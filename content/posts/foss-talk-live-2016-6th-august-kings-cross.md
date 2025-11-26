@@ -3,6 +3,8 @@ title: "FOSS Talk Live 2016, 6th August Kings Cross"
 date: 2016-07-14T17:30:28+00:00
 draft: false
 author: Greater London Linux User Group
+tags:
+  - Meetings
 ---
 Much like London busses, a second London Linux event has also come along.
 

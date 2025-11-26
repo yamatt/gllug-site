@@ -7,6 +7,16 @@ theme = "hugo-theme-m10c"
 [permalinks]
 posts = "/:year/:month/:day/:title/"
 
+[[menu.main]]
+identifier = "tags-meetings"
+name = "Meetings"
+url = "/tags/meetings/"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+
 [params]
 author = "Greater London Linux User Group"
 description = "."
