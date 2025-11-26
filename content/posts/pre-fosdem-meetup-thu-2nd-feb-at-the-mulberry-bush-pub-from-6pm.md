@@ -4,7 +4,7 @@ date: 2017-01-16T21:06:24+00:00
 draft: false
 author: Greater London Linux User Group
 tags:
-  - Uncategorized
+  - meetings
 ---
 Happy new year all.
 
@@ -16,7 +16,7 @@ Hope to see you there.
 
 **Directions to the Mulberry Bush**
 
-[Mulberry Bush](http://www.mulberrybushpub.com/find-us)  
+[Mulberry Bush](http://www.mulberrybushpub.com/find-us)
 89 Upper Ground, Southbank, London, SE1 9PP
 
 Leave Waterloo via the original main entrance in order to head towards the South Bank.  The main entrance is found by turning left after coming through any of the ticket barriers, and is at the far end of the concourse beyond platform 18, on the right next to the lost luggage.  Head through the glass doors and down the stone steps, if you find yourself on a bridge you’ve gone the wrong way, come back and look on your left for the glass doors.

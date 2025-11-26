@@ -4,7 +4,7 @@ date: 2016-07-14T16:24:16+00:00
 draft: false
 author: Greater London Linux User Group
 tags:
-  - Meetings
+  - meetings
 ---
 Not to make this look like a 6 monthly meetup, but that’s what it’s going to be.
 
