@@ -16,11 +16,11 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           path: main
-      - name: Get Terraform state from tf-state branch
-        uses: actions/checkout@v5
+      - name: Get public branch
+        uses: actions/checkout@v6
         with:
           ref: public
           path: public
