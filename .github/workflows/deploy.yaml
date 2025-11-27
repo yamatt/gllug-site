@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "content/*"
+      - "hugo.toml"
+      - "themes/*"
+      - ".github/workflows/deploy.yaml"
 
 permissions:
   contents: write
