@@ -14,7 +14,6 @@ To celebrate this GLLUG (and others) will meet on 25th August at Mabel's Tavern,
 
 Mabel's Tavern is a "Shepherd Neame" pub so we can expect to drink real beer. They serve food too.
 
-You can see details of the pub at <a href="http://www.mabelstavern.co.uk/" title="www.mabelstavern.co.uk">http://www.mabelstavern.co.uk/</a>
-
+[You can see details of the pub](http://www.mabelstavern.co.uk/).
 
 **N.B. The mailing lists are working again!**

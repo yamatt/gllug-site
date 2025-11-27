@@ -7,8 +7,7 @@ tags:
   - meetings
 ---
 
-The this months talk will be about the Android kernel and will be<br />
-given by Sunny Aujla.
+The this months talk will be about the Android kernel and will be given by Sunny Aujla.
 
 He will be talking about the history, a view of android in mainstream linux, the Google changes, and the future of the Android kernel.
 
