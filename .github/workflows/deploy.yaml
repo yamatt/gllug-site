@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -13,24 +16,31 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v5
+        with:
+          path: main
+      - name: Get Terraform state from tf-state branch
+        uses: actions/checkout@v5
+        with:
+          ref: public
+          path: public
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "0.152.2"
       - name: Build the site
-        run: hugo --minify
+        working-directory: main
+        run: hugo --minify --destination ../public
       - name: Artifact upload
         uses: actions/upload-artifact@v5
         with:
           name: hugo-public
           path: public/
-      - name: Deploy to LAMP server
-        uses: appleboy/scp-action@v1.0.0
-        with:
-          host: ${{ secrets.LAMP_SERVER_HOST }}
-          username: ${{ secrets.LAMP_SERVER_USERNAME }}
-          key: ${{ secrets.LAMP_SERVER_SSH_PRIVATE_KEY }}
-          source: "public/"
-          target: "/home/gllug/public_html/new"
+      - name: Update public branch
+        working-directory: public
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add .
+          git commit -m "Update  public branch"
+          git push origin public
