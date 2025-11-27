@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths:
-      - "content/*"
+      - "content/**"
       - "hugo.toml"
-      - "themes/*"
+      - "themes/**"
       - ".github/workflows/deploy.yaml"
 
 permissions:
