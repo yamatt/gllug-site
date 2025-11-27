@@ -3,3 +3,8 @@ RewriteEngine On
 # Redirect old WordPress-style URLs: /index.php/.... -> /....
 RewriteCond %{REQUEST_URI} ^/index\.php/(.*)$
 RewriteRule ^index\.php/(.*)$ /$1 [L,R=301]
+
+RedirectMatch 404 ^/\.git
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
