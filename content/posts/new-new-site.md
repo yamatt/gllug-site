@@ -1,6 +1,6 @@
 ---
 date: '2025-11-27T21:44:08Z'
-draft: true
+draft: false
 title: 'New New Site'
 tags:
   - news
