@@ -37,7 +37,7 @@ jobs:
         working-directory: main
         run: hugo --minify --destination ../public
       - name: Artifact upload
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: hugo-public
           path: public/
