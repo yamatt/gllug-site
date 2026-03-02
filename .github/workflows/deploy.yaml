@@ -47,5 +47,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add .
-          git commit -m "Update  public branch"
+          git commit -m "Update public branch"
           git push origin public
+      - name: Add published pages to WayBack Machine
+        run: |
+          curl 'https://web.archive.org/save/https://gllug.org.uk' -X POST -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'url=https%3A%2F%2Fgllug.org.uk&capture_all=on'
