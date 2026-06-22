@@ -21,11 +21,11 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           path: main
       - name: Get public branch
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: public
           path: public
