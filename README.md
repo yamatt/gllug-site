@@ -10,6 +10,10 @@ There is also a `.htaccess` file in the `public` branch that turns the `.git` di
 
 It also redirects the old `index.php` urls to native URLs.
 
+## Announcing Events
+
+If you have an event to announce please create a PR that contains a markdown file of the event in the `content/posts/` directory, and tag @yamatt to merge it.
+
 ## Running Locally
 
 ```sh
