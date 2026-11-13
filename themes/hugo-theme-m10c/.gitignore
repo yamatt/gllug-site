@@ -1,4 +1,5 @@
 public/
 exampleSite/resources/
+resources/_gen/
 .hugo_build.lock
 node_modules/
